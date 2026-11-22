@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "run": {
+    "run_id": "REPLACE_WITH_UNIQUE_RUN_ID",
+    "status": "incomplete",
+    "created_at_utc": "REPLACE_WITH_ISO_8601_UTC_TIMESTAMP",
+    "method": "REPLACE_WITH_AGENT_NAME",
+    "agent": {
+      "description": "REPLACE_WITH_AGENT_DESCRIPTION",
+      "source_url": null,
+      "revision": "REPLACE_WITH_AGENT_CODE_REVISION",
+      "configuration": {},
+      "model": null,
+      "prompt": null,
+      "decoding": null,
+      "history_policy": "REPLACE_WITH_WITHIN_EPISODE_MEMORY_POLICY",
+      "reset_policy": "REPLACE_WITH_HOW_AGENT_STATE_IS_RESET_BETWEEN_EPISODES",
+      "retry_policy": "REPLACE_WITH_RETRY_LIMITS_AND_BEHAVIOR_OR_NONE",
+      "training_map_ids": [],
+      "development_map_ids": []
+    },
+    "benchmark": {
+      "version": "REPLACE_WITH_v2_OR_v3",
+      "package_version": "REPLACE_WITH_INSTALLED_PACKAGE_VERSION",
+      "repository_revision": "REPLACE_WITH_EVALUATION_CODE_REVISION",
+      "metric_dependency": null
+    },
+    "selection": {
+      "split": "REPLACE_WITH_SPLIT_FILTER_OR_NULL",
+      "map_ids": [
+        "REPLACE_WITH_SELECTED_MAP_ID"
+      ]
+    },
+    "evaluation": {
+      "alphas": [null],
+      "replicates": 1,
+      "policy_seed_strategy": "REPLACE_WITH_SEED_POLICY_OR_UNCONTROLLED"
+    }
+  },
+  "results": [
+    {
+      "map_id": "REPLACE_WITH_SELECTED_MAP_ID",
+      "episode_sha256": "REPLACE_WITH_EPISODE_HASH_FROM_BENCHMARK_RECORD",
+      "split": "REPLACE_WITH_RECORD_SPLIT_OR_NULL",
+      "replicate": 0,
+      "policy_seed": null,
+      "alpha": null,
+      "action_budget": null,
+      "status": "not_run",
+      "scores": null,
+      "error": null,
+      "usage": {
+        "agent_wall_seconds": null,
+        "input_tokens": null,
+        "output_tokens": null,
+        "cost_usd": null
+      }
+    }
+  ]
+}
