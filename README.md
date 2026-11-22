@@ -143,10 +143,8 @@ If you find this work useful, please cite our work:
 
 ```bibtex
 @misc{park2026explo2bench,
-  title = {{(EXPLO)$^2$-Bench}: Scrutinizing Agent's Exploration
-           and Exploitation Errors Beyond Success},
-  author = {Park, Jaden and Kim, Jungtaek and Jeong, Jongwon
-            and Ghodsi, Mahdi and Lee, Yong Jae},
+  title = {{(EXPLO)$^2$-Bench}: Scrutinizing Agent's Exploration and Exploitation Errors Beyond Success},
+  author = {Park, Jaden and Kim, Jungtaek and Jeong, Jongwon and Ghodsi, Mahdi and Lee, Yong Jae},
   year = {2026},
   date = {2026-11-08},
   url = {https://jadenpark0.github.io/project_pages/explo-bench/}
