@@ -1,0 +1,19 @@
+{
+  "run_identity": "380f5ef06b98741d081e476670b0d8e9a59d9cf65cd6ba7d573cdac4c25b4da3",
+  "maps": 250,
+  "result_rows": 30000,
+  "aggregation_revision": 1,
+  "aggregation_code_sha256": "b3b3f75a57712cf69b909efddbda4d150c01c6e64c3cbf809ef94879354b32fa",
+  "source_results_sha256": "d68a77b65cf9ef679e4b6269c20d1391844dd4852f7cdfa76996b25cc66f3af0",
+  "table_sha256": {
+    "by_setting.csv": "9e268ad20db25a2e1f0b2795cdc08dc970abaf5e06cace3cdbb98d9f2b341845",
+    "summary.csv": "e587a0e007efcb896778382f01112ded83011b904c55baa14573cad377ca2fa5"
+  },
+  "aggregation": "replicate mean within map, map mean within preset cell, equal-weight cell mean",
+  "uncertainty": "1.96 * standard error of cell-stratified map means; normal approximation, not a bootstrap",
+  "uncertainty_limits": "Describes within-cell map variability, conditional on the released generator and cells. Shared map structures can violate independence; (EXPLO)\u00b2-Bench v2 cells have only 10 maps. Degenerate success cells have zero estimated variance. Fixed-inventory means are exact, not estimates.",
+  "missing_rates": "A rate with zero eligible steps is null, excluded from that metric's mean; maps count reports contributing maps.",
+  "successful_actions": "Actions to goal activation among successful runs only; average successful replicates within each map, contributing maps within each cell, then contributing cells equally. maps and runs report valid counts. This conditional mean can increase as harder maps start succeeding.",
+  "integrity": "Verified result SHA256, map/row counts, map identity selection, and exactly one row per configured method/alpha/replicate per map.",
+  "timing": "CPU and wall time include policy reset and act calls; exclude environment/scoring. Shared host and instrumentation affect measurements."
+}

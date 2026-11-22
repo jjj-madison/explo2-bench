@@ -1,0 +1,7 @@
+{
+  "alphas": [0.5, 1, 1.5, 2, 3, 4, 5, 6, 8, 10],
+  "methods": ["random_walk", "random_revisit", "frontier_revisit", "goal_revisit", "sweep_then_exploit", "online_planner", "dependency_greedy", "balanced_utility"],
+  "stochastic_replicates": 3,
+  "seed": 20261010,
+  "max_search_states": 10000
+}

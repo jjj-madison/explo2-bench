@@ -1,0 +1,856 @@
+{
+  "axis_order": {
+    "exploration_levels": [
+      "higher",
+      "high",
+      "medium",
+      "low",
+      "lower"
+    ],
+    "task_dag_difficulties": [
+      "harder",
+      "hard",
+      "medium",
+      "easy",
+      "easier"
+    ]
+  },
+  "configuration_version": "v2",
+  "defaults": {
+    "alpha_budget": 3.0,
+    "grid_aspect_ratio": 1.0
+  },
+  "exploration_levels": {
+    "high": {
+      "dag_density_over_grid": 0.075,
+      "path_width_probs": {
+        "1": 0.3,
+        "2": 0.45,
+        "3": 0.25
+      }
+    },
+    "higher": {
+      "dag_density_over_grid": 0.05,
+      "path_width_probs": {
+        "2": 0.4,
+        "3": 0.6
+      }
+    },
+    "low": {
+      "dag_density_over_grid": 0.15,
+      "path_width_probs": {
+        "1": 1.0
+      }
+    },
+    "lower": {
+      "dag_density_over_grid": 0.4,
+      "path_width_probs": {
+        "1": 1.0
+      }
+    },
+    "medium": {
+      "dag_density_over_grid": 0.1,
+      "path_width_probs": {
+        "1": 0.5,
+        "2": 0.5
+      }
+    }
+  },
+  "preset_count": 25,
+  "presets": [
+    {
+      "exploration_level": "higher",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.05,
+        "dependency_count_probs": {
+          "1": 0.25,
+          "2": 0.25,
+          "3": 0.25,
+          "4": 0.25
+        },
+        "goal_dependency_count_probs": {
+          "1": 0.25,
+          "2": 0.25,
+          "3": 0.25,
+          "4": 0.25
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 3,
+        "num_nodes": 10,
+        "option_count_probs": {
+          "1": 0.4,
+          "2": 0.6
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "2": 0.4,
+          "3": 0.6
+        }
+      },
+      "task_dag_difficulty": "harder"
+    },
+    {
+      "exploration_level": "higher",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.05,
+        "dependency_count_probs": {
+          "1": 0.3333333333333333,
+          "2": 0.3333333333333333,
+          "3": 0.3333333333333333
+        },
+        "goal_dependency_count_probs": {
+          "1": 0.3333333333333333,
+          "2": 0.3333333333333333,
+          "3": 0.3333333333333333
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 3,
+        "num_nodes": 8,
+        "option_count_probs": {
+          "1": 0.6,
+          "2": 0.4
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "2": 0.4,
+          "3": 0.6
+        }
+      },
+      "task_dag_difficulty": "hard"
+    },
+    {
+      "exploration_level": "higher",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.05,
+        "dependency_count_probs": {
+          "1": 0.5,
+          "2": 0.5
+        },
+        "goal_dependency_count_probs": {
+          "1": 0.5,
+          "2": 0.5
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 3,
+        "num_nodes": 6,
+        "option_count_probs": {
+          "1": 0.8,
+          "2": 0.2
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "2": 0.4,
+          "3": 0.6
+        }
+      },
+      "task_dag_difficulty": "medium"
+    },
+    {
+      "exploration_level": "higher",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.05,
+        "dependency_count_probs": {
+          "1": 0.5,
+          "2": 0.5
+        },
+        "goal_dependency_count_probs": {
+          "1": 0.5,
+          "2": 0.5
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 3,
+        "num_nodes": 4,
+        "option_count_probs": {
+          "1": 1.0
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "2": 0.4,
+          "3": 0.6
+        }
+      },
+      "task_dag_difficulty": "easy"
+    },
+    {
+      "exploration_level": "higher",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.05,
+        "dependency_count_probs": {
+          "1": 1.0
+        },
+        "goal_dependency_count_probs": {
+          "1": 1.0
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 1,
+        "num_nodes": 2,
+        "option_count_probs": {
+          "1": 1.0
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "2": 0.4,
+          "3": 0.6
+        }
+      },
+      "task_dag_difficulty": "easier"
+    },
+    {
+      "exploration_level": "high",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.075,
+        "dependency_count_probs": {
+          "1": 0.25,
+          "2": 0.25,
+          "3": 0.25,
+          "4": 0.25
+        },
+        "goal_dependency_count_probs": {
+          "1": 0.25,
+          "2": 0.25,
+          "3": 0.25,
+          "4": 0.25
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 3,
+        "num_nodes": 10,
+        "option_count_probs": {
+          "1": 0.4,
+          "2": 0.6
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "1": 0.3,
+          "2": 0.45,
+          "3": 0.25
+        }
+      },
+      "task_dag_difficulty": "harder"
+    },
+    {
+      "exploration_level": "high",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.075,
+        "dependency_count_probs": {
+          "1": 0.3333333333333333,
+          "2": 0.3333333333333333,
+          "3": 0.3333333333333333
+        },
+        "goal_dependency_count_probs": {
+          "1": 0.3333333333333333,
+          "2": 0.3333333333333333,
+          "3": 0.3333333333333333
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 3,
+        "num_nodes": 8,
+        "option_count_probs": {
+          "1": 0.6,
+          "2": 0.4
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "1": 0.3,
+          "2": 0.45,
+          "3": 0.25
+        }
+      },
+      "task_dag_difficulty": "hard"
+    },
+    {
+      "exploration_level": "high",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.075,
+        "dependency_count_probs": {
+          "1": 0.5,
+          "2": 0.5
+        },
+        "goal_dependency_count_probs": {
+          "1": 0.5,
+          "2": 0.5
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 3,
+        "num_nodes": 6,
+        "option_count_probs": {
+          "1": 0.8,
+          "2": 0.2
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "1": 0.3,
+          "2": 0.45,
+          "3": 0.25
+        }
+      },
+      "task_dag_difficulty": "medium"
+    },
+    {
+      "exploration_level": "high",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.075,
+        "dependency_count_probs": {
+          "1": 0.5,
+          "2": 0.5
+        },
+        "goal_dependency_count_probs": {
+          "1": 0.5,
+          "2": 0.5
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 3,
+        "num_nodes": 4,
+        "option_count_probs": {
+          "1": 1.0
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "1": 0.3,
+          "2": 0.45,
+          "3": 0.25
+        }
+      },
+      "task_dag_difficulty": "easy"
+    },
+    {
+      "exploration_level": "high",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.075,
+        "dependency_count_probs": {
+          "1": 1.0
+        },
+        "goal_dependency_count_probs": {
+          "1": 1.0
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 1,
+        "num_nodes": 2,
+        "option_count_probs": {
+          "1": 1.0
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "1": 0.3,
+          "2": 0.45,
+          "3": 0.25
+        }
+      },
+      "task_dag_difficulty": "easier"
+    },
+    {
+      "exploration_level": "medium",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.1,
+        "dependency_count_probs": {
+          "1": 0.25,
+          "2": 0.25,
+          "3": 0.25,
+          "4": 0.25
+        },
+        "goal_dependency_count_probs": {
+          "1": 0.25,
+          "2": 0.25,
+          "3": 0.25,
+          "4": 0.25
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 3,
+        "num_nodes": 10,
+        "option_count_probs": {
+          "1": 0.4,
+          "2": 0.6
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "1": 0.5,
+          "2": 0.5
+        }
+      },
+      "task_dag_difficulty": "harder"
+    },
+    {
+      "exploration_level": "medium",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.1,
+        "dependency_count_probs": {
+          "1": 0.3333333333333333,
+          "2": 0.3333333333333333,
+          "3": 0.3333333333333333
+        },
+        "goal_dependency_count_probs": {
+          "1": 0.3333333333333333,
+          "2": 0.3333333333333333,
+          "3": 0.3333333333333333
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 3,
+        "num_nodes": 8,
+        "option_count_probs": {
+          "1": 0.6,
+          "2": 0.4
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "1": 0.5,
+          "2": 0.5
+        }
+      },
+      "task_dag_difficulty": "hard"
+    },
+    {
+      "exploration_level": "medium",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.1,
+        "dependency_count_probs": {
+          "1": 0.5,
+          "2": 0.5
+        },
+        "goal_dependency_count_probs": {
+          "1": 0.5,
+          "2": 0.5
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 3,
+        "num_nodes": 6,
+        "option_count_probs": {
+          "1": 0.8,
+          "2": 0.2
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "1": 0.5,
+          "2": 0.5
+        }
+      },
+      "task_dag_difficulty": "medium"
+    },
+    {
+      "exploration_level": "medium",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.1,
+        "dependency_count_probs": {
+          "1": 0.5,
+          "2": 0.5
+        },
+        "goal_dependency_count_probs": {
+          "1": 0.5,
+          "2": 0.5
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 3,
+        "num_nodes": 4,
+        "option_count_probs": {
+          "1": 1.0
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "1": 0.5,
+          "2": 0.5
+        }
+      },
+      "task_dag_difficulty": "easy"
+    },
+    {
+      "exploration_level": "medium",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.1,
+        "dependency_count_probs": {
+          "1": 1.0
+        },
+        "goal_dependency_count_probs": {
+          "1": 1.0
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 1,
+        "num_nodes": 2,
+        "option_count_probs": {
+          "1": 1.0
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "1": 0.5,
+          "2": 0.5
+        }
+      },
+      "task_dag_difficulty": "easier"
+    },
+    {
+      "exploration_level": "low",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.15,
+        "dependency_count_probs": {
+          "1": 0.25,
+          "2": 0.25,
+          "3": 0.25,
+          "4": 0.25
+        },
+        "goal_dependency_count_probs": {
+          "1": 0.25,
+          "2": 0.25,
+          "3": 0.25,
+          "4": 0.25
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 3,
+        "num_nodes": 10,
+        "option_count_probs": {
+          "1": 0.4,
+          "2": 0.6
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "1": 1.0
+        }
+      },
+      "task_dag_difficulty": "harder"
+    },
+    {
+      "exploration_level": "low",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.15,
+        "dependency_count_probs": {
+          "1": 0.3333333333333333,
+          "2": 0.3333333333333333,
+          "3": 0.3333333333333333
+        },
+        "goal_dependency_count_probs": {
+          "1": 0.3333333333333333,
+          "2": 0.3333333333333333,
+          "3": 0.3333333333333333
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 3,
+        "num_nodes": 8,
+        "option_count_probs": {
+          "1": 0.6,
+          "2": 0.4
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "1": 1.0
+        }
+      },
+      "task_dag_difficulty": "hard"
+    },
+    {
+      "exploration_level": "low",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.15,
+        "dependency_count_probs": {
+          "1": 0.5,
+          "2": 0.5
+        },
+        "goal_dependency_count_probs": {
+          "1": 0.5,
+          "2": 0.5
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 3,
+        "num_nodes": 6,
+        "option_count_probs": {
+          "1": 0.8,
+          "2": 0.2
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "1": 1.0
+        }
+      },
+      "task_dag_difficulty": "medium"
+    },
+    {
+      "exploration_level": "low",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.15,
+        "dependency_count_probs": {
+          "1": 0.5,
+          "2": 0.5
+        },
+        "goal_dependency_count_probs": {
+          "1": 0.5,
+          "2": 0.5
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 3,
+        "num_nodes": 4,
+        "option_count_probs": {
+          "1": 1.0
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "1": 1.0
+        }
+      },
+      "task_dag_difficulty": "easy"
+    },
+    {
+      "exploration_level": "low",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.15,
+        "dependency_count_probs": {
+          "1": 1.0
+        },
+        "goal_dependency_count_probs": {
+          "1": 1.0
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 1,
+        "num_nodes": 2,
+        "option_count_probs": {
+          "1": 1.0
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "1": 1.0
+        }
+      },
+      "task_dag_difficulty": "easier"
+    },
+    {
+      "exploration_level": "lower",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.4,
+        "dependency_count_probs": {
+          "1": 0.25,
+          "2": 0.25,
+          "3": 0.25,
+          "4": 0.25
+        },
+        "goal_dependency_count_probs": {
+          "1": 0.25,
+          "2": 0.25,
+          "3": 0.25,
+          "4": 0.25
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 3,
+        "num_nodes": 10,
+        "option_count_probs": {
+          "1": 0.4,
+          "2": 0.6
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "1": 1.0
+        }
+      },
+      "task_dag_difficulty": "harder"
+    },
+    {
+      "exploration_level": "lower",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.4,
+        "dependency_count_probs": {
+          "1": 0.3333333333333333,
+          "2": 0.3333333333333333,
+          "3": 0.3333333333333333
+        },
+        "goal_dependency_count_probs": {
+          "1": 0.3333333333333333,
+          "2": 0.3333333333333333,
+          "3": 0.3333333333333333
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 3,
+        "num_nodes": 8,
+        "option_count_probs": {
+          "1": 0.6,
+          "2": 0.4
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "1": 1.0
+        }
+      },
+      "task_dag_difficulty": "hard"
+    },
+    {
+      "exploration_level": "lower",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.4,
+        "dependency_count_probs": {
+          "1": 0.5,
+          "2": 0.5
+        },
+        "goal_dependency_count_probs": {
+          "1": 0.5,
+          "2": 0.5
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 3,
+        "num_nodes": 6,
+        "option_count_probs": {
+          "1": 0.8,
+          "2": 0.2
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "1": 1.0
+        }
+      },
+      "task_dag_difficulty": "medium"
+    },
+    {
+      "exploration_level": "lower",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.4,
+        "dependency_count_probs": {
+          "1": 0.5,
+          "2": 0.5
+        },
+        "goal_dependency_count_probs": {
+          "1": 0.5,
+          "2": 0.5
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 3,
+        "num_nodes": 4,
+        "option_count_probs": {
+          "1": 1.0
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "1": 1.0
+        }
+      },
+      "task_dag_difficulty": "easy"
+    },
+    {
+      "exploration_level": "lower",
+      "knobs": {
+        "alpha_budget": 3.0,
+        "dag_density_over_grid": 0.4,
+        "dependency_count_probs": {
+          "1": 1.0
+        },
+        "goal_dependency_count_probs": {
+          "1": 1.0
+        },
+        "grid_aspect_ratio": 1.0,
+        "max_nodes_per_layer": 1,
+        "num_nodes": 2,
+        "option_count_probs": {
+          "1": 1.0
+        },
+        "parent_depth_bias": 1.0,
+        "path_width_probs": {
+          "1": 1.0
+        }
+      },
+      "task_dag_difficulty": "easier"
+    }
+  ],
+  "task_dag_difficulties": {
+    "easier": {
+      "dependency_count_probs": {
+        "1": 1.0
+      },
+      "goal_dependency_count_probs": {
+        "1": 1.0
+      },
+      "max_nodes_per_layer": 1,
+      "num_nodes": 2,
+      "option_count_probs": {
+        "1": 1.0
+      },
+      "parent_depth_bias": 1.0
+    },
+    "easy": {
+      "dependency_count_probs": {
+        "1": 0.5,
+        "2": 0.5
+      },
+      "goal_dependency_count_probs": {
+        "1": 0.5,
+        "2": 0.5
+      },
+      "max_nodes_per_layer": 3,
+      "num_nodes": 4,
+      "option_count_probs": {
+        "1": 1.0
+      },
+      "parent_depth_bias": 1.0
+    },
+    "hard": {
+      "dependency_count_probs": {
+        "1": 0.3333333333333333,
+        "2": 0.3333333333333333,
+        "3": 0.3333333333333333
+      },
+      "goal_dependency_count_probs": {
+        "1": 0.3333333333333333,
+        "2": 0.3333333333333333,
+        "3": 0.3333333333333333
+      },
+      "max_nodes_per_layer": 3,
+      "num_nodes": 8,
+      "option_count_probs": {
+        "1": 0.6,
+        "2": 0.4
+      },
+      "parent_depth_bias": 1.0
+    },
+    "harder": {
+      "dependency_count_probs": {
+        "1": 0.25,
+        "2": 0.25,
+        "3": 0.25,
+        "4": 0.25
+      },
+      "goal_dependency_count_probs": {
+        "1": 0.25,
+        "2": 0.25,
+        "3": 0.25,
+        "4": 0.25
+      },
+      "max_nodes_per_layer": 3,
+      "num_nodes": 10,
+      "option_count_probs": {
+        "1": 0.4,
+        "2": 0.6
+      },
+      "parent_depth_bias": 1.0
+    },
+    "medium": {
+      "dependency_count_probs": {
+        "1": 0.5,
+        "2": 0.5
+      },
+      "goal_dependency_count_probs": {
+        "1": 0.5,
+        "2": 0.5
+      },
+      "max_nodes_per_layer": 3,
+      "num_nodes": 6,
+      "option_count_probs": {
+        "1": 0.8,
+        "2": 0.2
+      },
+      "parent_depth_bias": 1.0
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "identity": "85de316e6bc56b3fab0f850452e966d27ef8d6ccf3aeadd19e69b0a17e98d749",
+  "status": "complete",
+  "version": "v3",
+  "config": {
+    "alphas": [
+      0.5,
+      1,
+      1.5,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10
+    ],
+    "methods": [
+      "random_walk",
+      "random_revisit",
+      "frontier_revisit",
+      "goal_revisit",
+      "sweep_then_exploit",
+      "online_planner",
+      "dependency_greedy",
+      "balanced_utility"
+    ],
+    "stochastic_replicates": 3,
+    "seed": 20261010,
+    "max_search_states": 10000
+  },
+  "map_count": 8100,
+  "split_filter": null,
+  "limit": null,
+  "selection_sha256": "b9aa9823ba6e62e2854b13c123593637698dd7a3d3134c16cdab5f074c290963",
+  "code_sha256": "29baeeb9fd3c6ac8ade36475fea94f280c98cbafc8a52909d418709fe29fae96",
+  "baseline_revision": 1,
+  "evaluation_revision": 3,
+  "metric_dependency": {
+    "distribution": "measurable-explore-exploit",
+    "version": "0.1.0",
+    "repository": "https://github.com/jjj-madison/measurable-explore-exploit",
+    "pinned_revision": "2bb260104d7272d3908f312f3b1f67e394fbaa9b",
+    "installed_revision": "2bb260104d7272d3908f312f3b1f67e394fbaa9b",
+    "source_sha256": {
+      "metrics.py": "3ca4e1a5e7479e545c1a980c09f88fe265764028f593abb907830bb1dbc5985d",
+      "types.py": "5786453b46e6203a5d52f4fdb2b9324e86b936f04ffd0653d37736ea6549f721"
+    }
+  },
+  "python": "3.13.18",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "host": "JKs-MacBook-Pro.local",
+  "processor": "arm",
+  "cpu_affinity_count": null,
+  "workers": 8,
+  "logical_cpus": 10,
+  "started_utc": "2026-11-21T21:32:55.775712+00:00",
+  "cost_scope": "policy reset and act only; CPU process time and wall elapsed time",
+  "timing_caveat": "Parallel host contention affects wall time; timing is not deterministic.",
+  "executions": [
+    {
+      "host": "JKs-MacBook-Pro.local",
+      "processor": "arm",
+      "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+      "python": "3.13.18",
+      "workers": 8,
+      "logical_cpus": 10,
+      "cpu_affinity_count": null,
+      "started_utc": "2026-11-21T21:32:55.775735+00:00",
+      "execution_id": "acd4f6f1628e2148"
+    }
+  ],
+  "row_count": 972000,
+  "finished_utc": "2026-11-21T23:40:57.875684+00:00",
+  "results_sha256": "146d6e770daaca9011f20c06182764d1e47c6f87ed605bbc559298d12a36af22"
+}

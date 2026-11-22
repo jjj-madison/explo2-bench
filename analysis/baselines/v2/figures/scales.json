@@ -1,0 +1,18 @@
+{
+  "versions_compared": [
+    "v2",
+    "v3"
+  ],
+  "cost_maximum_before_padding": {
+    "planning_cpu_seconds": 0.5259675727160494,
+    "search_states_generated": 85394.84432098766
+  },
+  "rates": [
+    0,
+    1.02
+  ],
+  "action_budget_multiplier": [
+    0.4,
+    10.1
+  ]
+}

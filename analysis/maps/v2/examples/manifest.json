@@ -1,0 +1,23 @@
+[
+  {
+    "version": "v2",
+    "map_id": "v2-higher-harder-s0",
+    "episode_sha256": "b43f56aad7633710c17c0ecf2c867bbd7400ff32a8d33c6abd84ce5f2a0c1be2",
+    "selection": "first inventory record at named profile",
+    "basename": "higher_harder"
+  },
+  {
+    "version": "v2",
+    "map_id": "v2-medium-medium-s0",
+    "episode_sha256": "9b95f0e758c34976a6ea1a932f4e81c23fa6e13d0826b6b09ee24a3dfc217067",
+    "selection": "first inventory record at named profile",
+    "basename": "medium_medium"
+  },
+  {
+    "version": "v2",
+    "map_id": "v2-lower-easier-s0",
+    "episode_sha256": "772b325c9270a9dc870c6301b8945e1562a22a3265619c235f95eea672304adb",
+    "selection": "first inventory record at named profile",
+    "basename": "lower_easier"
+  }
+]

@@ -1,0 +1,640 @@
+{
+  "version": "v2",
+  "complete": true,
+  "dag_equivalence": "exact directed isomorphism preserving goal and AND/OR groups",
+  "global": {
+    "maps": 250,
+    "gameplay": {
+      "distinct": 250,
+      "duplicate_excess": 0,
+      "largest_class": 1,
+      "duplicate_groups": []
+    },
+    "wall_layouts": {
+      "distinct": 249,
+      "duplicate_excess": 1,
+      "largest_class": 2
+    },
+    "task_coordinate_sets": {
+      "distinct": 245,
+      "duplicate_excess": 5,
+      "largest_class": 3
+    },
+    "dag_classes": {
+      "distinct": 31,
+      "duplicate_excess": 219,
+      "largest_class": 50
+    }
+  },
+  "split_overlap": {
+    "split_sizes": {
+      "train": 0,
+      "validation": 0,
+      "test": 250
+    },
+    "unassigned_maps": 0,
+    "pairs": {}
+  },
+  "by_profile": {
+    "high/easier": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 1,
+        "duplicate_excess": 9,
+        "largest_class": 10
+      }
+    },
+    "high/easy": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 1,
+        "duplicate_excess": 9,
+        "largest_class": 10
+      }
+    },
+    "high/hard": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      }
+    },
+    "high/harder": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      }
+    },
+    "high/medium": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 9,
+        "duplicate_excess": 1,
+        "largest_class": 2
+      }
+    },
+    "higher/easier": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 1,
+        "duplicate_excess": 9,
+        "largest_class": 10
+      }
+    },
+    "higher/easy": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 1,
+        "duplicate_excess": 9,
+        "largest_class": 10
+      }
+    },
+    "higher/hard": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      }
+    },
+    "higher/harder": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      }
+    },
+    "higher/medium": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 9,
+        "duplicate_excess": 1,
+        "largest_class": 2
+      }
+    },
+    "low/easier": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 1,
+        "duplicate_excess": 9,
+        "largest_class": 10
+      }
+    },
+    "low/easy": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 1,
+        "duplicate_excess": 9,
+        "largest_class": 10
+      }
+    },
+    "low/hard": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      }
+    },
+    "low/harder": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      }
+    },
+    "low/medium": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 9,
+        "duplicate_excess": 1,
+        "largest_class": 2
+      }
+    },
+    "lower/easier": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 9,
+        "duplicate_excess": 1,
+        "largest_class": 2
+      },
+      "task_coordinate_sets": {
+        "distinct": 6,
+        "duplicate_excess": 4,
+        "largest_class": 3
+      },
+      "dag_classes": {
+        "distinct": 1,
+        "duplicate_excess": 9,
+        "largest_class": 10
+      }
+    },
+    "lower/easy": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 1,
+        "duplicate_excess": 9,
+        "largest_class": 10
+      }
+    },
+    "lower/hard": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 9,
+        "duplicate_excess": 1,
+        "largest_class": 2
+      },
+      "dag_classes": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      }
+    },
+    "lower/harder": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      }
+    },
+    "lower/medium": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 9,
+        "duplicate_excess": 1,
+        "largest_class": 2
+      }
+    },
+    "medium/easier": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 1,
+        "duplicate_excess": 9,
+        "largest_class": 10
+      }
+    },
+    "medium/easy": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 1,
+        "duplicate_excess": 9,
+        "largest_class": 10
+      }
+    },
+    "medium/hard": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      }
+    },
+    "medium/harder": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      }
+    },
+    "medium/medium": {
+      "maps": 10,
+      "gameplay": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1,
+        "duplicate_groups": []
+      },
+      "wall_layouts": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "task_coordinate_sets": {
+        "distinct": 10,
+        "duplicate_excess": 0,
+        "largest_class": 1
+      },
+      "dag_classes": {
+        "distinct": 9,
+        "duplicate_excess": 1,
+        "largest_class": 2
+      }
+    }
+  }
+}

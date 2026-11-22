@@ -1,0 +1,40 @@
+# Python caches and compiled extensions
+__pycache__/
+*.py[codz]
+*.so
+
+# Build and packaging outputs
+/build/
+/dist/
+*.egg-info/
+*.egg
+/MANIFEST
+
+# Optional local environments and credentials
+.venv/
+venv/
+env/
+ENV/
+.env
+.envrc
+.pypirc
+
+# Test, coverage, and development-tool caches
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.cache/
+.ipynb_checkpoints/
+
+# Local evaluation outputs and resumable intermediates
+/outputs/
+.checkpoints/
+*.tmp
+*.log

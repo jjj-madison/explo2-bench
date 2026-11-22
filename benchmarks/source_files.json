@@ -1,0 +1,117 @@
+{
+  "src/symbolic_environment/types.py": {
+    "sha256": "2e47ec05f91805c2306953813050f617d876aef118e1d3e9d0e09198e6a858a8",
+    "extracted_path": "src/explo2_bench/_core/types.py",
+    "extracted_sha256": "57d05ef5bbe3971ae8e716e32127800dc925008d49630e9cf1c3dd2ba4582b47",
+    "extraction_note": "Accept canonical exploration-level values and the exploration_level field."
+  },
+  "src/symbolic_environment/generator.py": {
+    "sha256": "bfaabc30e65136b7c2c4840c0564fbcf1981da9a3b3c46165cdda8279be3d61f",
+    "extracted_path": "src/explo2_bench/_core/generator.py",
+    "extracted_sha256": "bdca79e70461a155aa66550a1038b0b2727f12f917e425646cc48878cdd30928",
+    "extraction_note": "Provide the generator dependencies used by v2/v3. The constructive generation entry point is private."
+  },
+  "src/symbolic_environment/v2/types.py": {
+    "sha256": "217683569d963c6123cc47097056c01c9407a6f1f8df29441b9c4a1e73b91e92",
+    "extracted_path": "src/explo2_bench/_core/v2/types.py",
+    "extracted_sha256": "217683569d963c6123cc47097056c01c9407a6f1f8df29441b9c4a1e73b91e92"
+  },
+  "src/symbolic_environment/v2/config.py": {
+    "sha256": "719774aa33920a5e9bca7201a51850d49e78b8d5f08a535e5799c8487870c57f",
+    "extracted_path": "src/explo2_bench/_core/v2/config.py",
+    "extracted_sha256": "de68397af1f41c86045e0022f2434d140d93b90c8c2222c16405b537bb03f255",
+    "extraction_note": "Provide preset configuration and knob resolution used by the generator."
+  },
+  "src/symbolic_environment/v2/generator.py": {
+    "sha256": "a1b4da1958ca73754537eda5deaf1a271743c390fa1d6cdb232ee67fea94b2c2",
+    "extracted_path": "src/explo2_bench/_core/v2/generator.py",
+    "extracted_sha256": "20b4f6d5e969f91f571809c52a9f86da270e71e966fc6a7d2ffaba339deb54bf",
+    "extraction_note": "Provide native generation; common-format episode I/O is provided by the public data API."
+  },
+  "src/symbolic_environment/v3/types.py": {
+    "sha256": "ce9fe4225a45ba7d01adb8948bc0cd1cfc40ad7c9884df8d46ba5a78d7103b9a",
+    "extracted_path": "src/explo2_bench/_core/v3/types.py",
+    "extracted_sha256": "253115e734bf943b772fe6bf48f353d490584cedb5f07886cf092ec8887f6f24"
+  },
+  "src/symbolic_environment/v3/config.py": {
+    "sha256": "2c2e43ec3678e8c0afbd2c401ba6dba48851098a8c2f997fb4a7cf3fa4dea442",
+    "extracted_path": "src/explo2_bench/_core/v3/config.py",
+    "extracted_sha256": "fb17a0d7a6924f0f3e82e9414620deeaf6c3a626d58107de6cded849488d2c3c",
+    "extraction_note": "Provide settings validation and knobs_for for preset resolution."
+  },
+  "src/symbolic_environment/v3/generator.py": {
+    "sha256": "b1131093e543d475c0c1b706fccab75866daac9fa14105dc6f2d814b841fddad",
+    "extracted_path": "src/explo2_bench/_core/v3/generator.py",
+    "extracted_sha256": "fa81164e64f292c0958691bf9c99c8a258dd49766d5bc23379b36e5b3bdf85b3",
+    "extraction_note": "Use math.fsum for expected corridor width so regenerated metadata matches frozen hashes across supported Python versions. Provide generation and witness validation; common-format episode I/O is provided by the public data API."
+  },
+  "src/symbolic_environment/v3/task_graph.py": {
+    "sha256": "c700c21b8901ba8abcd02b14f4403715c20e955d74342b9683aa575fa3b03350",
+    "extracted_path": "src/explo2_bench/_core/v3/task_graph.py",
+    "extracted_sha256": "c700c21b8901ba8abcd02b14f4403715c20e955d74342b9683aa575fa3b03350"
+  },
+  "src/symbolic_environment/v3/settings.json": {
+    "sha256": "86c1e244a3d9e4a659babf29fa91166b7cb4d74db3283599aa6bede4c8644e75",
+    "extracted_path": "src/explo2_bench/_core/v3/settings.json",
+    "extracted_sha256": "86c1e244a3d9e4a659babf29fa91166b7cb4d74db3283599aa6bede4c8644e75"
+  },
+  "src/symbolic_environment/environment.py": {
+    "sha256": "4f6e0392b44ac221de2657a1e3a46e4d17232248b3f42b4502ed7ba957eb2bb4",
+    "extracted_path": "src/explo2_bench/_core/environment.py",
+    "extracted_sha256": "a8d0e3729460548b19341cdf93ee035638b21109e931070c374cd9e8d4e45400"
+  },
+  "src/symbolic_environment/agents/base.py": {
+    "sha256": "56d5ca6108980951f9ceb40fb3b71b5f9aa3a27b8558224a699514f6f40d0180",
+    "extracted_path": "src/explo2_bench/baselines/base.py",
+    "extracted_sha256": "b5e4c05bf522ca8bdaef424c173553f27c7d11789b238fad822b4591de3b0561"
+  },
+  "src/symbolic_environment/agents/revisit_utils.py": {
+    "sha256": "584a631dbc301212523bb2815e0f387b052f215b5f17fccfdfd2dc930d58d67e",
+    "extracted_path": "src/explo2_bench/baselines/revisit_utils.py",
+    "extracted_sha256": "4884ed8817a9307d867288993353dd7d154420854023e5ea5504ea983303c6ba",
+    "extraction_note": "Provide memory, nearest-target routing, and frontier-routing helpers used by the baselines."
+  },
+  "src/symbolic_environment/agents/sweep_then_exploit.py": {
+    "sha256": "67533ababb95d96d9c126dffb6cfa0ea83a2979e8cbbd1b3a7d97c283db2b254",
+    "extracted_path": "src/explo2_bench/baselines/sweep_then_exploit.py",
+    "extracted_sha256": "5c62d2047b9e670026f8d42a173bbdb8de7516d5a2d2ef121224780a4198ce9b",
+    "extraction_note": "Use bounded cached planning through OnlinePlannerAgent and shared local activation closure in src/explo2_bench/baselines/planning.py."
+  },
+  "src/symbolic_environment/agents/v2/helpers.py": {
+    "sha256": "fd0b5d00b7c5a554d810862825719b26b9ac21f481fb7fd755a2f6202f7b7acf",
+    "extracted_path": "src/explo2_bench/baselines/helpers.py",
+    "extracted_sha256": "b85d86556176db74cc06daa127c1bb0545ab11abe88a5efdc2fa22221d75a719"
+  },
+  "src/symbolic_environment/agents/v2/random_walk.py": {
+    "sha256": "167ab14c9077ad8b9c9f567902aa6b48524d6cfcea2a3ed577c3e2f1907ceae9",
+    "extracted_path": "src/explo2_bench/baselines/random_walk.py",
+    "extracted_sha256": "2ef922c05baf271871c508ef9998cfe86a219fbed034da53c6463fa128945f2b"
+  },
+  "src/symbolic_environment/agents/v2/random_revisit.py": {
+    "sha256": "4feff5db93eb6d1f25f016307dcfc5fc7b13cfa9f3d3f7ad6e57d220bc601ba5",
+    "extracted_path": "src/explo2_bench/baselines/random_revisit.py",
+    "extracted_sha256": "90db209d2658d61608b2224fe729d6777d85231ccd2b4736ca413d52870059c1"
+  },
+  "src/symbolic_environment/agents/v2/frontier_revisit.py": {
+    "sha256": "afc0e7d34e2c80c009eb2f3eccfbe420660f0f125cbd262bcdbcfe2a14acc75f",
+    "extracted_path": "src/explo2_bench/baselines/frontier_revisit.py",
+    "extracted_sha256": "587f40c13d43a614931407581ac2e0b73acec141ac75e1922c76c51390e5233a"
+  },
+  "src/symbolic_environment/agents/v2/goal_revisit.py": {
+    "sha256": "533e44bfd6fbf64c85dce95c250983ed9ce27c970219f8931bf7db304bb9265b",
+    "extracted_path": "src/explo2_bench/baselines/goal_revisit.py",
+    "extracted_sha256": "9efb39386b9dcdef5831cd0c62f280a00c4dc89ed318f2458558830fdc5580c7"
+  },
+  "src/symbolic_environment/agents/v2/online_planner.py": {
+    "sha256": "6cefa347761b295df8e2b80712a5518956dcfa2fb9f1d3b22eb44ee7d9e02ba9",
+    "extracted_path": "src/explo2_bench/baselines/online_planner.py",
+    "extracted_sha256": "4f37a3fb839a104d3104c92b044b2310442fc09d81c962765240c8fad46eceb9",
+    "extraction_note": "Expose OnlinePlannerAgent with a max_search_states parameter and share cached planning with the sweep baseline. Generated-state diagnostics use search_states_generated."
+  },
+  "scripts/analysis/v3_diversity.py": {
+    "sha256": "7938a1aad529238321e5af9f3f93e7ae14a0bd277f60723480bb526be44d99a3",
+    "extracted_path": "src/explo2_bench/analysis/diversity.py",
+    "extracted_sha256": "c2c09dadc42f6e79389f6e42d24c9e200dbaae91613812f0a939a285760e1974",
+    "extraction_note": "Use shared private types for exact graph-isomorphism analysis."
+  }
+}

@@ -1,0 +1,906 @@
+{
+  "audit_script_sha256": "9966d24204a042e727ac3a6c358729fd0c03693fb241e90ac131c31f44ca4be3",
+  "current_evaluator_sha256": "29baeeb9fd3c6ac8ade36475fea94f280c98cbafc8a52909d418709fe29fae96",
+  "elapsed_seconds": 125.785,
+  "maps_per_setting": 1,
+  "metric_dependency": {
+    "distribution": "measurable-explore-exploit",
+    "installed_revision": "2bb260104d7272d3908f312f3b1f67e394fbaa9b",
+    "pinned_revision": "2bb260104d7272d3908f312f3b1f67e394fbaa9b",
+    "repository": "https://github.com/jjj-madison/measurable-explore-exploit",
+    "source_sha256": {
+      "metrics.py": "3ca4e1a5e7479e545c1a980c09f88fe265764028f593abb907830bb1dbc5985d",
+      "types.py": "5786453b46e6203a5d52f4fdb2b9324e86b936f04ffd0653d37736ea6549f721"
+    },
+    "version": "0.1.0"
+  },
+  "schema_version": 1,
+  "scope": "All archived rows and error-rate summary means; deterministic replay only for the explicitly listed maps. Timing fields are excluded from replay comparisons.",
+  "selection": "first inventory maps in each exploration/task-DAG setting",
+  "valid": true,
+  "versions": {
+    "v2": {
+      "maps_checked": 250,
+      "rate_arithmetic_mismatches": 0,
+      "recorded_evaluator_matches_current": true,
+      "recorded_evaluator_sha256": "29baeeb9fd3c6ac8ade36475fea94f280c98cbafc8a52909d418709fe29fae96",
+      "replay_maps": 25,
+      "replay_mismatches": 0,
+      "replay_rows": 3000,
+      "replay_selection_sha256": "f038cf7076651c0a669480f83beeacc48ac35b7ec49d4e321ed13faf142c595f",
+      "replay_trajectories": 300,
+      "replays": [
+        {
+          "elapsed_seconds": 0.019,
+          "episode_sha256": "97895d7e59ef65e0ad8edba395c94eeb2f16d7ca27f0ed09c30c7328d53fc6c7",
+          "map_id": "v2-high-easier-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.123,
+          "episode_sha256": "f34f527ac094eb9ac6f8dec020bff20bc39934e53f7f7b627d8a6ffd3e451f25",
+          "map_id": "v2-high-easy-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.604,
+          "episode_sha256": "0b4e0eadfb1ead7b47e1bdafdcd282c4a88ed81a2a2621d2da39e853daeb7c71",
+          "map_id": "v2-high-hard-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 1.239,
+          "episode_sha256": "c38df02562fc50422c9fbcca0a67645953d6449f458b8a288b1e0698d47e2cbc",
+          "map_id": "v2-high-harder-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.46,
+          "episode_sha256": "2bd60dfa80bddde32823a9180be52a31ad30235a2c95c016fd0ac81471f5a9da",
+          "map_id": "v2-high-medium-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.078,
+          "episode_sha256": "9a55edbb7553f7e330a8493612c8366ae7d7d3bf83f20bf357845039a357a5b6",
+          "map_id": "v2-higher-easier-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.276,
+          "episode_sha256": "2e35ea1f271afbff8684988d00d5a379cd2b71fa188da73e3427918dbf38698b",
+          "map_id": "v2-higher-easy-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 1.114,
+          "episode_sha256": "d470b4cc24b39dc4943200f8544bd9b794604fbafc5062aaf926baad6b986c6c",
+          "map_id": "v2-higher-hard-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 1.771,
+          "episode_sha256": "b43f56aad7633710c17c0ecf2c867bbd7400ff32a8d33c6abd84ce5f2a0c1be2",
+          "map_id": "v2-higher-harder-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.758,
+          "episode_sha256": "cb03a4e47987f6d8938c8b88d1f8d19c4dc4458afe16140d9adfd238a6086ee2",
+          "map_id": "v2-higher-medium-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.011,
+          "episode_sha256": "fd40726a18b4c0bad51a76b1af8144faef9e22cb15ed680a00e5d9f143bb9284",
+          "map_id": "v2-low-easier-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.029,
+          "episode_sha256": "4c6de9e9a07b56f2cedc4ba767a7839640e9840cf70ba3714e41f4b35fc69ae7",
+          "map_id": "v2-low-easy-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.167,
+          "episode_sha256": "5bb304158060fee62a71057cd23d0465b072ce10e350e36302ea5b645fb2db41",
+          "map_id": "v2-low-hard-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.207,
+          "episode_sha256": "76602eca3e48a32af21ade4e99d6258f2a2505d101d81c7c01744afa94f2df14",
+          "map_id": "v2-low-harder-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.07,
+          "episode_sha256": "9c0928a379181068edd33faf2e47469e25d2c88cd35339a3bc0a6a1a7d25c783",
+          "map_id": "v2-low-medium-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.01,
+          "episode_sha256": "772b325c9270a9dc870c6301b8945e1562a22a3265619c235f95eea672304adb",
+          "map_id": "v2-lower-easier-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.016,
+          "episode_sha256": "2f7c52744410069bdb91bcecd9a1d180ac2ad3ef20e059fe5036e96040ea20c6",
+          "map_id": "v2-lower-easy-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.079,
+          "episode_sha256": "2feda89c5ba002a5bfe705d3ecfcdfadb037daa837ad8b39ec379892a77a352c",
+          "map_id": "v2-lower-hard-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.132,
+          "episode_sha256": "158fd73aa2e195d3419c62e1fb250edfd31425114ea3fb3ddfff7f91706e4651",
+          "map_id": "v2-lower-harder-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.044,
+          "episode_sha256": "7d91401419595abc525a617a8a3b95a2f4e8e506086ab05346a5236c5567d557",
+          "map_id": "v2-lower-medium-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.022,
+          "episode_sha256": "fc5a19e0e40427560a5f27a9ff419c89425eb950616e9c9bd2cdb1b06d5b2583",
+          "map_id": "v2-medium-easier-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.087,
+          "episode_sha256": "8689e8b69cac55e0c270725f438c00f94d4435c5b724382ee36fc3b1152cb7fd",
+          "map_id": "v2-medium-easy-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.275,
+          "episode_sha256": "360a3475ed2695162311f0cf1da8fb86421b575a6f2c689b311ab1f505fe4063",
+          "map_id": "v2-medium-hard-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.404,
+          "episode_sha256": "46d3fc8937c5464750f8c4139e653f93a1608b6da86afce948f1df4ce29d88e2",
+          "map_id": "v2-medium-harder-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.232,
+          "episode_sha256": "9b95f0e758c34976a6ea1a932f4e81c23fa6e13d0826b6b09ee24a3dfc217067",
+          "map_id": "v2-medium-medium-s0",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        }
+      ],
+      "result_sha256": "d68a77b65cf9ef679e4b6269c20d1391844dd4852f7cdfa76996b25cc66f3af0",
+      "rows_checked": 30000,
+      "summary_mean_mismatches": [],
+      "summary_means_checked": 6240
+    },
+    "v3": {
+      "maps_checked": 8100,
+      "rate_arithmetic_mismatches": 0,
+      "recorded_evaluator_matches_current": true,
+      "recorded_evaluator_sha256": "29baeeb9fd3c6ac8ade36475fea94f280c98cbafc8a52909d418709fe29fae96",
+      "replay_maps": 81,
+      "replay_mismatches": 0,
+      "replay_rows": 9720,
+      "replay_selection_sha256": "8665f47bb6cf42f41bc83a64ef4d70e22dce60fff03241caa54a940080d4cf23",
+      "replay_trajectories": 972,
+      "replays": [
+        {
+          "elapsed_seconds": 0.383,
+          "episode_sha256": "184916bec5ad4f1c79d9dd87a4ac130cd721317c5af1feb0b78d5f06ec3fe935",
+          "map_id": "v3-high-easier-s3961890500",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.124,
+          "episode_sha256": "3a9d33d3385db62f88c4fffc848caf79ad5cfa5fddb225ab792ddbe235a71872",
+          "map_id": "v3-high-easiest-s3626626889",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.792,
+          "episode_sha256": "c7ca3609071c29bf147871b8ad85d68bcb9d2e36ae154134c3eedfe1c5b842c9",
+          "map_id": "v3-high-easy-s3372602386",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 5.208,
+          "episode_sha256": "84750f443412e09b3817b756846f639e81f2d86591920c1227539b70e30071e2",
+          "map_id": "v3-high-hard-s3307513982",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 7.503,
+          "episode_sha256": "3cb8fbe2ab25206c30ed42f334b25ebd6c179dc492eb34053b78a1d8d8b2feb7",
+          "map_id": "v3-high-harder-s2882923994",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 12.704,
+          "episode_sha256": "f30fb2b0ce32538d3e5affca8665ed1bac864385507997965c1a11fa3a2d7ad3",
+          "map_id": "v3-high-hardest-s2432932112",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 2.6,
+          "episode_sha256": "ee9a8f43d70f3776e9d04b627fe009802b493258c1af4cf1c88fd39ee85123e5",
+          "map_id": "v3-high-medium-s2359337067",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.053,
+          "episode_sha256": "133b501abfa342f12787d80843ca6e2a8fbf59b283f5df99536ff3ec2264be29",
+          "map_id": "v3-high-x-easiest-s2715588612",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 20.46,
+          "episode_sha256": "dda21a1087f8faaf48cd508d551b29f3f14a389243e8eb5da806aba67108ba1f",
+          "map_id": "v3-high-x-hardest-s3533952941",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.594,
+          "episode_sha256": "5b20e0f6576caa79f23ad2ff3b0832e5c383454d490d8943b37143eba23d2632",
+          "map_id": "v3-higher-easier-s2883032515",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.308,
+          "episode_sha256": "173cd31c37581cc8f6aec765b524d74d3c4b4defcb325c528196f7db72c08346",
+          "map_id": "v3-higher-easiest-s3759083291",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 1.979,
+          "episode_sha256": "94ec4dc8afd9d2c0cac48f911e11c255816877f26b8a6c3cb87a759604b3abb1",
+          "map_id": "v3-higher-easy-s2823621494",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 5.948,
+          "episode_sha256": "a613a2ac38384a4ea7ab431e5d0d6d1d5642ec0bb5f1df32b48997e5f61ef914",
+          "map_id": "v3-higher-hard-s3839367106",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 10.213,
+          "episode_sha256": "203191fa41795c8eb54085bcfb97bd7755cef4e35906e1935e9c35f1b439c796",
+          "map_id": "v3-higher-harder-s2161173131",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 19.145,
+          "episode_sha256": "b7bacbc49869f2319cb74678df67c852a54062a9267150b3975682efffa2ff2f",
+          "map_id": "v3-higher-hardest-s3856691918",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 3.299,
+          "episode_sha256": "70e7be43282c20540e32f6316bf359e1a8a6902c2472db5f93f542cb294f80cd",
+          "map_id": "v3-higher-medium-s4038375174",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.066,
+          "episode_sha256": "753a0837ffe134e362344a6af6129bb9187c13f6e24dee638e8628cee7fdea0e",
+          "map_id": "v3-higher-x-easiest-s4024832616",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 31.878,
+          "episode_sha256": "e8601fe96e7531ba4b863ba8807b07e2d66caa26463ef811ad916c27b6b460ad",
+          "map_id": "v3-higher-x-hardest-s2312951805",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.842,
+          "episode_sha256": "1f989d63f286b3c807a6e292631d3356ba4a45e7bb3f00e9fd3627ab0d8dad81",
+          "map_id": "v3-highest-easier-s2291125275",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.318,
+          "episode_sha256": "1a80fcc96e31c405873169e892c0ef0b1d0f5495a2f7782e45a97a3a0945253c",
+          "map_id": "v3-highest-easiest-s2833577690",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 2.161,
+          "episode_sha256": "9e4001c54c42caf0ef76500346bc4c3ce4751884e110f595c8d04506556dfdf7",
+          "map_id": "v3-highest-easy-s2416473204",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 10.64,
+          "episode_sha256": "b432a9d8613c03561806f1b35baf061b2b6000d890a55920f985254ab1d4823a",
+          "map_id": "v3-highest-hard-s4019357278",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 18.892,
+          "episode_sha256": "e983a6ce49d8831b44f1053938433a221c14a4603237867bfbdb708b27830a53",
+          "map_id": "v3-highest-harder-s4022275461",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 25.035,
+          "episode_sha256": "1a0fc86eb02d1d95fa102effe8584ce1b85659aa818b1ea633ed7f570a9a32c1",
+          "map_id": "v3-highest-hardest-s3109226414",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 4.018,
+          "episode_sha256": "4843aa2137c8a8bd744c79f1c3690497e57b61c62de12d44fb45c50be70aa276",
+          "map_id": "v3-highest-medium-s2732899867",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.093,
+          "episode_sha256": "952164e5150785206e36740f514657ceb63e4fec2799e525804ff964a9dd7c3f",
+          "map_id": "v3-highest-x-easiest-s3737957815",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 44.693,
+          "episode_sha256": "66fb6774adcf557df4b7a74ccbee4e052497cd9fd765f3da4be9bd1176c49e06",
+          "map_id": "v3-highest-x-hardest-s3884542124",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.157,
+          "episode_sha256": "14eeabb28629d4f1079a7f31c8c75dedec1c86c61e5b47b2e06eff1d3abfda8b",
+          "map_id": "v3-low-easier-s2210017811",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.057,
+          "episode_sha256": "cf017b3e1ef3321cedeae09b0554ba6343f3ed67d274e3c76067bf1f7dbebec8",
+          "map_id": "v3-low-easiest-s3863778151",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.37,
+          "episode_sha256": "07a766dd6d0e5d81e4e58802302b933ae0e91a7f7abdf166cbefb1ee485a1e83",
+          "map_id": "v3-low-easy-s4213995404",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 1.651,
+          "episode_sha256": "38d9466947f650958e781dd45c34d8847a4a86da5d12c3584d3f0ee2d4fd1198",
+          "map_id": "v3-low-hard-s2260920889",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 2.989,
+          "episode_sha256": "16b269adf139b371c5291cdf240a10072dfe41f4670ca813930f4cca8c4e32a9",
+          "map_id": "v3-low-harder-s3647801627",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 5.004,
+          "episode_sha256": "df127ad74a48b7dc1a6f59d1f8de56be78686ae1660347267808af5fe319c624",
+          "map_id": "v3-low-hardest-s2812226601",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.763,
+          "episode_sha256": "caf047cb521b5a547bfbbbc7f11317d2f6d5b975beebf3ec44728ed18287fb1c",
+          "map_id": "v3-low-medium-s4092707102",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.023,
+          "episode_sha256": "c0df8bf2e33c664d72fea3c08d930779f1fb35896e3712e7c6ebd7ab339be020",
+          "map_id": "v3-low-x-easiest-s2192461878",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 9.096,
+          "episode_sha256": "af2af499b8c1bbfa8ee2e8dfa08aa50f774ef23d860fd26e569810711d92efca",
+          "map_id": "v3-low-x-hardest-s3902788111",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.088,
+          "episode_sha256": "5d7f1e472181e930342d1581aea453e478b9d39242e13c733f3235843136f3be",
+          "map_id": "v3-lower-easier-s2150320641",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.059,
+          "episode_sha256": "4216c0cde322574c76b23a0f21dc964ce754851901050bc7e44b610258ba72b3",
+          "map_id": "v3-lower-easiest-s2256617183",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.189,
+          "episode_sha256": "d28ba919d3c3fc01b08a25c8cb6aa30c4fa55dd7042c57d2f4e371e3fae84e15",
+          "map_id": "v3-lower-easy-s2818355303",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 1.567,
+          "episode_sha256": "c6f0881e420364d697a894c8d049cba61034d55b4e131c009a108223c5df8f1f",
+          "map_id": "v3-lower-hard-s2645047973",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 2.55,
+          "episode_sha256": "ef576eeee0a6e31a6823b02da9c07a6164d8d0e79200e93f6f97d8bd1bdb89bd",
+          "map_id": "v3-lower-harder-s3411861397",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 3.918,
+          "episode_sha256": "b4d1b37a7d1e8fd5c75613dbc3a35284a7867fc3699da76abecec9ce2b6739b5",
+          "map_id": "v3-lower-hardest-s2168611704",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.447,
+          "episode_sha256": "d711609358edca96a251f394bb9ab9c8babd87d807df78c42656dae216baacc3",
+          "map_id": "v3-lower-medium-s3290792724",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.02,
+          "episode_sha256": "f0d343dfb2a281ab0ac4759dec94a3db7f56c53c64760387d2a1e5430174200e",
+          "map_id": "v3-lower-x-easiest-s2612783981",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 5.696,
+          "episode_sha256": "3c02118b8bd0c7d59d1ed4961a93f3ef3d2d14ca25298ae3650c2a5b152b82de",
+          "map_id": "v3-lower-x-hardest-s2938308717",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.092,
+          "episode_sha256": "2ea247132cc5dc8a0ff31a1bdd8267dbc99bfd4c4d3d202bd7c73ba50c413e45",
+          "map_id": "v3-lowest-easier-s2292945391",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.031,
+          "episode_sha256": "d18eeaadbd9484192d4a2d759154fec972c93d362658dffa1d6b95b5c8c863e4",
+          "map_id": "v3-lowest-easiest-s3751659418",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.191,
+          "episode_sha256": "7846e3f9aa0b0ae2a4eec09061534ec365e35b16e339430701c1e56156bacfe6",
+          "map_id": "v3-lowest-easy-s2857111075",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 1.155,
+          "episode_sha256": "14e8bc305b8052a1086a9bb96d00ad3e7669d3f77e10eb3891e0071b1aff84a6",
+          "map_id": "v3-lowest-hard-s2360838288",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 1.551,
+          "episode_sha256": "8a4e7a8c0440fa1278297c87b70ef300317caf38a22b44aacdbbccb576f79ff1",
+          "map_id": "v3-lowest-harder-s4028928080",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 3.527,
+          "episode_sha256": "214e15e27819a0efc0b7670d3c9eb9a3d6dca17334582b7df5dd4e9c28b6bbbe",
+          "map_id": "v3-lowest-hardest-s2275361084",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.282,
+          "episode_sha256": "5364eee6b6ef41549ee2fdf1d2a0a73c62dbc28e7115edb9e54ebe00a8cea8dd",
+          "map_id": "v3-lowest-medium-s4278610719",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.028,
+          "episode_sha256": "6a4938f0347591c5742ff3abdbe2e83f468e7e49ec8c2096b5ba8b34099f9c84",
+          "map_id": "v3-lowest-x-easiest-s3776026327",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 7.43,
+          "episode_sha256": "401f049e07c32d83115282597533588db95912f9a82f82bb4470999083fbdfba",
+          "map_id": "v3-lowest-x-hardest-s3998352866",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.423,
+          "episode_sha256": "74243af50f1261b15ae166f94e3d9c5fb9a569d49e6f9ad977f1c57870745d04",
+          "map_id": "v3-medium-easier-s3889723943",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.052,
+          "episode_sha256": "96175893c0f125b09be1d98053a332d90e2d9aea2f0802f45a9edf269afcbc6b",
+          "map_id": "v3-medium-easiest-s2668890678",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.546,
+          "episode_sha256": "6b77ca30cd70076cd5c27f87dc98e621b3517d02edb6f58492be9749ac4653d1",
+          "map_id": "v3-medium-easy-s3965702540",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 2.986,
+          "episode_sha256": "5e2cf1e651499a9be759c9b89ddb595d1e6feba37a8d101c5e53bf040b27725c",
+          "map_id": "v3-medium-hard-s2275678600",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 5.881,
+          "episode_sha256": "82aae76e79969903008eea799f01b9c70313b262ab4ecb9e8a0464029a6d73de",
+          "map_id": "v3-medium-harder-s2169568082",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 9.303,
+          "episode_sha256": "ea3b876e4c92ed9adcc60c92667251ec94556592fe6265e427ff4225aa41747b",
+          "map_id": "v3-medium-hardest-s2835741686",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 1.328,
+          "episode_sha256": "e5429ea61f6fac7293851327302254798ba452e945882f2544380beede5b9d87",
+          "map_id": "v3-medium-medium-s2926493348",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.039,
+          "episode_sha256": "b1d07d0a87c716d54f552940d9e0546f2a91a7dd7bbf5e4b6f8e608a53350508",
+          "map_id": "v3-medium-x-easiest-s2978261599",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 13.732,
+          "episode_sha256": "219a653491db45839ce2604fe8d221420c4445bbd6e578ec1a26cf7cc2922eae",
+          "map_id": "v3-medium-x-hardest-s3541651720",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 1.379,
+          "episode_sha256": "69b242d04904cca7098b3ee5e60562cfb5458d0b68c03863a540845dd474c6f8",
+          "map_id": "v3-x-highest-easier-s2663500848",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.665,
+          "episode_sha256": "7d5da9a5995ea9a163627b47abd4923e9141ff0e641b97a4e4dfb1750304e778",
+          "map_id": "v3-x-highest-easiest-s2609756785",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 2.896,
+          "episode_sha256": "bb97ced70c71ef128afd43fd922fbef4d62530a76e09fd93d7228b4aa9b58d65",
+          "map_id": "v3-x-highest-easy-s3563001718",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 16.705,
+          "episode_sha256": "181161b7b7085d4646f0ca080616a661c9d87ddb4c3689b5872782f03c6986f6",
+          "map_id": "v3-x-highest-hard-s2177121045",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 24.759,
+          "episode_sha256": "63cfa90b234b396ff8bab9150cd2c31f0c96290b3d5b72ea9773af9c8c1ab438",
+          "map_id": "v3-x-highest-harder-s3374583999",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 49.836,
+          "episode_sha256": "f8867370b3113e760af83f46d093b21193063b6734646aebfffeca92a680cfd1",
+          "map_id": "v3-x-highest-hardest-s2531052211",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 6.806,
+          "episode_sha256": "742d25a181390982040386411313d276cbdcb492fa124156198275aeb86f8ac0",
+          "map_id": "v3-x-highest-medium-s3479755480",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.212,
+          "episode_sha256": "617f8a518ebdfbe75ea2bfc123a68eb2a48fdff44d4a7b12c27472085cc51dab",
+          "map_id": "v3-x-highest-x-easiest-s2329825319",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 75.818,
+          "episode_sha256": "15e7c0d74462d7dadbf67919d8af535e89438066287e8e0e09941e1cf67a68d6",
+          "map_id": "v3-x-highest-x-hardest-s2942735307",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.048,
+          "episode_sha256": "36bacd7df055b94acf61d05c607777af6e8aeb39c9ad321471475f023024d245",
+          "map_id": "v3-x-lowest-easier-s3958814129",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.042,
+          "episode_sha256": "8046c1643893a8e18729cb95a6fe46115f8d4e6a3af599ad76072fc492fea928",
+          "map_id": "v3-x-lowest-easiest-s4168128967",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.098,
+          "episode_sha256": "8e34c8c0354a9bd05675ef8fbad90667b2ea52fcc310998868f7c2e699a1c801",
+          "map_id": "v3-x-lowest-easy-s2856580120",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.817,
+          "episode_sha256": "2faeb50ddd510ca420624133f2db1cf193f1d26f157321a7c3c2b6a257e3cea0",
+          "map_id": "v3-x-lowest-hard-s4157309943",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 2.291,
+          "episode_sha256": "514c8483a920e5baff5ad3f1e59c7548a1378f00e118b2b8b9e251ae9a947eeb",
+          "map_id": "v3-x-lowest-harder-s3800677285",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 2.257,
+          "episode_sha256": "9e267d34562b75bf450c10121b4678acb0f7eca88f861579af66777477cf43f9",
+          "map_id": "v3-x-lowest-hardest-s3220761311",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.304,
+          "episode_sha256": "c792676de13a917c2ae27f898fdb1639e86c7d2f50339a9c09b11b8c247c520d",
+          "map_id": "v3-x-lowest-medium-s4134112349",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 0.01,
+          "episode_sha256": "7770a64a1094c3d11f9c5f8e52946ce2e9e478efed969450d8189d26cb1098eb",
+          "map_id": "v3-x-lowest-x-easiest-s3470614351",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        },
+        {
+          "elapsed_seconds": 5.737,
+          "episode_sha256": "780f6dcc3bf7f095d880fe6e80ead61bf7e79810112847eeeb1314a761747221",
+          "map_id": "v3-x-lowest-x-hardest-s3838731862",
+          "mismatches": [],
+          "rows_checked": 120,
+          "trajectories": 12
+        }
+      ],
+      "result_sha256": "146d6e770daaca9011f20c06182764d1e47c6f87ed605bbc559298d12a36af22",
+      "rows_checked": 972000,
+      "summary_mean_mismatches": [],
+      "summary_means_checked": 19680
+    }
+  },
+  "workers": 8
+}

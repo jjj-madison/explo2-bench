@@ -1,0 +1,40 @@
+{
+  "reference": {
+    "source": "Reference outputs from explo2_bench._core.metrics, the extracted metric implementation identified by source_sha256",
+    "source_sha256": "3e058fbfc6b6232b70d45b7e4117b02c9a8cd3eb9ded404247732c4ecc1f0642",
+    "upstream": {
+      "repository": "https://github.com/jjj-madison/measurable-explore-exploit",
+      "path": "src/symbolic_environment/metrics.py",
+      "sha256": "9b8ecf026e800f8de01284455566b4e3651aa818dd3c50e8cc5e7d284e1a40ee"
+    },
+    "extraction_note": "The reference implementation uses adjacency, frontier, and distance caching and incremental staleness, with metric semantics verified against the upstream source on 96 generated cases and eight reference cases.",
+    "source_fixture_sha256": "c7d6de8a931739592c98b9842b95addf950b55a4325c8fe58a3bafcfbe173df2",
+    "selection": "Six compute_metrics cases from the eight-case reference; the two cases requiring the private exploit_only metric interface are excluded."
+  },
+  "cases": [
+    {
+      "case_index": 0,
+      "metrics_sha256": "30dbd91becab76413271a3372ade71281d5528b383472dae62c122ce0fee4a64"
+    },
+    {
+      "case_index": 1,
+      "metrics_sha256": "30dbd91becab76413271a3372ade71281d5528b383472dae62c122ce0fee4a64"
+    },
+    {
+      "case_index": 3,
+      "metrics_sha256": "a52629e15d6800032ce39f40e3d94fd67af3785c49492688ae4280b20e186456"
+    },
+    {
+      "case_index": 4,
+      "metrics_sha256": "a29bf05bf567e1024377af172da1e6b1d5a36e548568571e318a565f2dc1fa3e"
+    },
+    {
+      "case_index": 5,
+      "metrics_sha256": "a29bf05bf567e1024377af172da1e6b1d5a36e548568571e318a565f2dc1fa3e"
+    },
+    {
+      "case_index": 7,
+      "metrics_sha256": "3bfa8e1a09867283641ebe73edec80988df0c8c8fdbbf19edbd89aade8f3e0c5"
+    }
+  ]
+}

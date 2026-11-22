@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "explo2-bench"
+version = "0.1.0"
+description = "(EXPLO)²-Bench v2 and (EXPLO)²-Bench v3: fixed benchmarks for exploration and task execution"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Jungtaek Kim"}]
+dependencies = [
+    "measurable-explore-exploit @ git+https://github.com/jjj-madison/measurable-explore-exploit.git@2bb260104d7272d3908f312f3b1f67e394fbaa9b",
+]
+
+[project.optional-dependencies]
+analysis = ["matplotlib>=3.8", "numpy>=1.24"]
+dev = ["pytest>=8", "build>=1.2"]
+
+[project.scripts]
+explo2-bench = "explo2_bench.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"explo2_bench._core.v3" = ["settings.json"]
+
+[tool.setuptools.data-files]
+"share/explo2_bench/benchmarks" = ["benchmarks/source_files.json", "benchmarks/record.schema.json"]
+"share/explo2_bench/benchmarks/v2" = ["benchmarks/v2/*.json", "benchmarks/v2/*.gz", "benchmarks/v2/*.csv"]
+"share/explo2_bench/benchmarks/v3" = ["benchmarks/v3/*.json", "benchmarks/v3/*.gz", "benchmarks/v3/*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

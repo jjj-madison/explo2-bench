@@ -1,0 +1,13 @@
+{
+  "analysis_version": 1,
+  "version": "v2",
+  "map_count": 250,
+  "budget_independent": true,
+  "full_inventory": true,
+  "input_inventory_sha256": "70fc442d7464c13ceee8c3d131d7ca15a0ec068f5573085b686fba536ce18dc8",
+  "files": {
+    "per_map.csv": "4a0efd3a9905eb9d512a498a45ae7c08f7a125baeea4afd0dad859a67a9c576c",
+    "by_profile.csv": "2e08677d0d50a2e901c60d93c0b2b57d51c9e16ef1341a874c1c87b90e883ce1",
+    "diversity.json": "d444dfba1c581d51055ccdfe40121035a15084c3d51f61ce1edc05112c5a619b"
+  }
+}
