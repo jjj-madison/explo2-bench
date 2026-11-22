@@ -137,6 +137,30 @@ development, and evaluation. The [canary markers](CANARY.md) help identify
 benchmark material in datasets, but cannot certify that evaluation maps were
 unseen during training.
 
+## Citation
+
+If you find this work useful, please cite our work:
+
+```bibtex
+@misc{park2026explo2bench,
+  title = {{(EXPLO)$^2$-Bench}: Scrutinizing Agent's Exploration
+           and Exploitation Errors Beyond Success},
+  author = {Park, Jaden and Kim, Jungtaek and Jeong, Jongwon
+            and Ghodsi, Mahdi and Lee, Yong Jae},
+  year = {2026},
+  date = {2026-11-08},
+  url = {https://jadenpark0.github.io/project_pages/explo-bench/}
+}
+
+@article{park2026exploration,
+  title={Exploration and Exploitation Errors Are Measurable for Language Model Agents},
+  author={Jaden Park and Jungtaek Kim and Jongwon Jeong and Robert D. Nowak and Kangwook Lee and Yong Jae Lee},
+  journal={arXiv preprint arXiv:2604.13151},
+  year={2026},
+  url={https://arxiv.org/abs/2604.13151}
+}
+```
+
 ## License
 
 The implementation is distributed under the [MIT license](LICENSE).
